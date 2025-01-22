@@ -6,7 +6,7 @@ include("../koneksi.php");
 $id = $_GET['id'];
 
 #3. mengambil semua record data berdasarkan id yang dipilih
-$ambil = "SELECT * FROM dosens WHERE id='$id'";
+$ambil = "SELECT * FROM karyawans WHERE id='$id'";
 
 #4. menjalankan query
 $edit = mysqli_query($koneksi,$ambil);
@@ -34,7 +34,7 @@ $data = mysqli_fetch_array($edit)
         <div class="col-8 m-auto">
             <div class="card">
             <div class="card-header">
-                <h3 class="float-start">Form Edit Data Dosen</h3>
+                <h3 class="float-start">Form Edit Data karyawan</h3>
                 
             </div>
             <div class="card-body">
