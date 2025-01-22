@@ -33,15 +33,15 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Divisi</label>
-                    <select name="jurusan" class="form-control" id="">
-                        <option value="">-Pilih Jurusan-</option>
+                    <select name="divisi" class="form-control" id="">
+                        <option value="">-Divisi-</option>
                         <?php
                             include('../koneksi.php');
-                            $sql_jur = "SELECT * FROM jurusans";
-                            $qry_jur = mysqli_query($koneksi,$sql_jur);
-                            foreach($qry_jur as $data_jur){
+                            $sql_kar = "SELECT * FROM karyawans";
+                            $qry_kar = mysqli_query($koneksi,$sql_kar);
+                            foreach($qry_kar as $data_kar){
                                 ?>
-                               <option value="<?=$data_jur['id']?>"><?=$data_jur['jurusan']?></option>
+                               <option value="<?=$data_kar['id']?>"><?=$data_kar['karyawan']?></option>
                                <?php
                             }
                         ?>

@@ -51,9 +51,7 @@
                         <th scope="row"><?=$nomor++?></th>
                         <td><?=$data['Nama_karyawan']?></td>
                         <td><?=$data['posisi']?></td>
-                        <td><?=$data['jk']?></td>
-                        <td><?=$data['jurusan']?></td>
-                        <td><?=$data['nm_dos']?></td>
+                        <td><?=$data['divisi_id']?></td>
                         <td>
                             <!-- TOMBOL DETAIL -->
                             <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detail<?=$data['Nama karyawan']?>">

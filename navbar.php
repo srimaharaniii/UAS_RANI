@@ -7,19 +7,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/UAS-Sri-maharani/index.php">Beranda</a>
+          <a class="nav-link active" aria-current="page" href="/UAS-RANI/index.php">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/UAS-Sri-maharani/modul-karyawan/index.php">Data Karyawan</a>
+          <a class="nav-link active" aria-current="page" href="/UAS-RANI/modul-karyawan/index.php">Data Karyawan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/UAS-Sri-maharani/modul-divisi">Data Divisi</a>
+          <a class="nav-link active" aria-current="page" href="/UAS-RANI/modul-divisi">Data Divisi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/project/ubah-password.php">Ubah Password</a>
+          <a class="nav-link active" aria-current="page" href="/UAS-RANI/ubah-password.php">Ubah Password</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/project/logout.php">Logout</a>
+          <a class="nav-link active" aria-current="page" href="/UAS-RANI/logout.php">Logout</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
