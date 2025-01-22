@@ -26,22 +26,26 @@
                     <label for="exampleInputEmail1" class="form-label">Nama Karyawan</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                
+                </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Posisi</label>
-                    <select name="posisi" class="form-control" id="">
-                        <option value="">-Pilih Posisi-</option>
-                        <option value="Staf Admin">Staf Admin</option>
-                            <option value="Staf Akutansi">Staf Akutansi</option>
-                            <option value="Marketing Office">Marketing Office</option>
-                            
-                            <option value="Education">Education</option>
-                    </select>
+                    <label for="exampleInputPassword1" class="form-label">posisi</label>
+                    <input type="text" name="posisi" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Divisi</label>
-                    <input type="text" name="divisi" class="form-control" id="exampleInputPassword1">
-                </div>
+                    <select name="jurusan" class="form-control" id="">
+                        <option value="">-Pilih Jurusan-</option>
+                        <?php
+                            include('../koneksi.php');
+                            $sql_jur = "SELECT * FROM jurusans";
+                            $qry_jur = mysqli_query($koneksi,$sql_jur);
+                            foreach($qry_jur as $data_jur){
+                                ?>
+                               <option value="<?=$data_jur['id']?>"><?=$data_jur['jurusan']?></option>
+                               <?php
+                            }
+                        ?>
+                    </select>
                 
                 
                 <div class="mb-3">

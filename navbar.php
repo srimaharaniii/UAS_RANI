@@ -16,9 +16,6 @@
           <a class="nav-link active" aria-current="page" href="/UAS-Sri-maharani/modul-divisi">Data Divisi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/project/modul-dosen/index.php">Data Dosen</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/project/ubah-password.php">Ubah Password</a>
         </li>
         <li class="nav-item">

@@ -37,7 +37,7 @@
                     include("../koneksi.php");
 
                     #2. menulis query
-                    $tampil = "SELECT *, karyawans.divisi_id as nm_divisi FROM karyawans INNER JOIN divisis ON karyawans.divisi_id=divisis.id";
+                    $tampil = "SELECT *,karyawans.divisi_id as nama_divisi FROM karyawans INNER JOIN divisis ON karyawans.divisi_id=divisis.id_divisi";
 
                     #3. jalankan query
                     $proses = mysqli_query($koneksi, $tampil);
